@@ -1,0 +1,93 @@
+body{
+    background-image: url(template2.jpg);
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h2 {
+    color: aliceblue;
+    position: relative;
+    left: 50px;
+}
+h1 {
+    font-size: 3.4rem;
+    color: aliceblue;
+    text-align: center;
+    letter-spacing: 15px;
+    margin-bottom: 5rem;
+    font-weight: 500;
+    position: relative;
+    top: 100px;
+}
+p {
+    color: aliceblue;
+    text-align: center;
+    position: absolute;
+    left:50%;
+    top: 300px;
+    font-size: 30px;
+    transform: translate(-50%,-50%);
+}
+.button-not{
+    position: absolute;
+    bottom: 200px;
+    left: 40%;
+    border-radius: 40px;
+    padding: 10px 60px;
+    font-weight: 500;
+    background-color: rgba(255, 255, 255, 0.3);
+    border: 2px solid #fff;
+    text-align: center;
+    color: #fff;
+    vertical-align: middle;
+    font-size: 1.25rem;
+    -webkit-appearance: button;
+    
+}
+
+a{
+
+top: 30%;
+left: 50%; 
+transform: translate(-50%, -50%);
+color: white;
+text-decoration: none;
+padding-left: 1cm;
+
+
+}
+.test {
+    margin-top: -40px;
+    margin-bottom: 27px;
+    margin-right: 150px;
+    margin-left: 950px;
+}
+.button {
+
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+
+    position: absolute;
+    bottom: 200px;
+    left: 40%;
+    border-radius: 40px;
+    padding: 10px 60px;
+    font-weight: 500;
+    background-color: rgba(255, 255, 255, 0.3);
+    border: 2px solid #fff;
+    text-align: center;
+    color: #fff;
+    vertical-align: middle;
+    font-size: 1.25rem;
+    -webkit-appearance: button;
+    
+  }
+  
+  .button:hover {background-color: rgba(0, 0, 0, 0.39)}
+  
+  .button:active {
+    background-color:rgba(0, 0, 0, 0.39);
+    transform: translateY(4px);
+  }
